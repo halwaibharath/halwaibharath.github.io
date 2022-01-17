@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin: 20px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #ffff;
+	padding: 5px 20px;
+	border: 1px solid #FFF;
+	transition: 0.5s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.logo img{
+    left: 100%;
+	width: 110px;
+	height: auto;
+}
+.title{
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+    top: auto;
+	color: #fff;
+	font-size: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    text-shadow: 0 0 4px #000, 0 0 6px #000;
+}
+.title p{
+	color: #fff;
+	font-size: 20px;
+    text-align: center;
+    text-shadow: 0 0 3px #000, 0 0 5px #000;
+}
+.button{
+	position: absolute;
+	top: 66%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+}
